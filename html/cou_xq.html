@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"  />
+		<title>项目详情</title>
+		<script>
+			onresize=function(){
+				document.documentElement.style.fontSize=innerWidth/10+'px';
+			}
+			document.documentElement.style.fontSize=innerWidth/10+'px';
+		</script>
+		<!-- <link rel="shortcut icon" type="image/ico" href="favicon.ico" /> -->
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/cou_xq.css"/>
+	</head>
+	<body>
+		<div class="video">
+			<!-- <video controls class="videos">
+				<source src="#" type="video/mp4"></source>
+				<source src="#" type="video/ogg"></source>
+			</video> -->
+			<img src="" alt="" class="banner" />
+		</div>
+
+		<div class="con_tit">
+			<div class="tit_lf">
+				<p class="tit1"></p>
+				<p class="tit2"></p>
+			</div>
+			<div class="tit_rt">
+				<span>
+					<e class="province"></e>
+					<e class="city"></e>
+				</span>
+				<img src="__PUBLIC__/img/places.png"/>
+			</div>
+		</div>
+		<div class="con_pj">
+			
+		</div>
+		<div class="con_jindu">
+			<div class="number_tiao">
+				<div class="number_shown">
+					<div class="number_num">0%</div>
+				</div>
+			</div>
+			<div class="jd_num">
+				<span>
+					<p class="invest_num"></p>
+					<p>认购人数</p>
+				</span>
+				<span>
+					<p class="start_money"></p>
+					<p>每份金额</p>
+				</span>
+				<span>
+					<p class="all_money"></p>
+					<p>融资总额</p>
+				</span>
+				<span>
+					<p class="all_invest"></p>
+					<p>认购总额</p>
+				</span>
+			</div>
+		</div>
+		<div class="con_nav" id="nav">
+			<!-- <a href="#js" class="intro active">项目介绍</a>
+			<a href="#rz" class="rzfa">融资方案</a>
+			<a href="#gg" class="xmgg">项目公告</a>
+			<a href="#fx" class="tzfx">投资风险</a> -->
+			<div>
+				<span class="active" name="js">项目介绍</span>
+				<span name="rz">融资方案</span>
+				<span name="gg">项目公告</span>
+				<span name="fx">投资风险</span> 
+			</div>
+				
+		</div>
+		<div class="con_main" id="main">
+			<div class="js" id="js">
+				<p class="j_gg">项目介绍</p>
+				<span class="js_con">
+					<span id="xmIntro" style="display: block;"></span>
+					<span class="js_store">
+						<b>直营门店</b>
+						<table id="store">
+							
+						</table>
+					</span>
+				</span>
+			</div>
+			<div class="rz" id="rz">
+				<p class="j_gg">融资方案</p>
+				<span class="rongzi_con">
+					<span class="rz_first">
+						<span>
+							<b class="rz_moneys"></b>
+							<b>融资总额</b>
+						</span>
+						<span>
+							<b class="rz_part"></b>
+							<b>融资份数</b>
+						</span>
+						<span>
+							<b class="every_money"></b>
+							<b>每份金额</b>
+						</span>
+						<span>
+							<b class="part_num"></b>
+							<b>分红占比</b>
+						</span>
+					</span>
+					<span class="rz_chuzi">出资方案</span>
+					<table class="chuzi_num">
+						<tr>
+							<td></td>
+							<td>投资金额</td>
+							<td>投资金额</td>
+							<td>投资金额</td>
+						</tr>
+						<tr>
+							<td>项目方出资</td>
+							<td class="money1">160万</td>
+							<td class="money2">40%</td>
+							<td class="money3">60%</td>
+						</tr>
+						<tr>
+							<td>投资方出资</td>
+							<td class="money4">240万</td>
+							<td class="money5">60%</td>
+							<td class="money6">40%</td>
+						</tr>
+						<tr>
+							<td>项目合计</td>
+							<td class="money7">100万</td>
+							<td class="money8">100%</td>
+							<td class="money9">100%</td>
+						</tr>
+					</table>
+					<span class="rz_chuzi">开店计划</span>
+					<table class="store_num" id="openShop">
+						
+					</table>
+					<span class="rz_chuzi">分红规划</span>
+					<table class="fenhong_num" id="partPlan">
+						
+					</table>
+					<span class="rz_chuzi">品牌管理费说明</span>
+					<table class="pinpai_num" id="brandIntro">
+						
+					</table>
+					<span class="rz_chuzi">股东选拔标准</span>
+					<table class="xb_num" id="choiceNorm">
+						
+					</table>
+					<span class="rz_chuzi">股东享受特权</span>
+					<span id="enjoyEquity"></span>
+				</span>
+				
+			</div>
+			<div class="gg" id="gg">
+				<p class="j_gg">项目公告</p>
+				<span class="gonggao_con">
+					<span class="gg_nr">
+					</span> 
+					<img src="" class="xmImg" />
+					<span class="gg_wx">微信号：<e class="wxh"></e></span>
+					<span class="gg_ss"></span>
+				</span>
+			</div>
+			<div class="fx" id="fx">
+				<p class="j_gg">投资风险</p>
+				<span class="fx_con">
+					
+				</span>
+			</div>
+		</div>
+		<div class="cou_foot">
+			<!-- <span id="btn1">下载APP</span> -->
+			<span id="btn2">打开APP</span>
+		</div>
+		<!-- 拆红包 -->
+		<!-- <a href="../Activity/red_bag.html?activityid={$pid}&uid={$uid}" class="share_bag">
+			<span  class="circle">
+				<img src="__PUBLIC__/img/red_bag1.png"/>
+			</span>
+		</a> -->
+		<script src="__PUBLIC__/js/jquery-2.2.3.js" type="text/javascript" charset="utf-8"></script>
+		<!-- <script src="__PUBLIC__/js/jquery.smint.js" type="text/javascript" charset="utf-8"></script> -->
+		<script src="__PUBLIC__/js/jquery.scrollTo.js" type="text/javascript"></script>
+		<script src="__PUBLIC__/js/app_share.js" type="text/javascript" charset="utf-8"></script>
+		<!-- <script src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js" type="text/javascript"></script> -->
+		<!-- <script type="text/javascript" src='http://203.195.235.76/jssdk/js/zepto.min.js'></script> -->
+		<script type="text/javascript">
+		// $('#nav').smint({
+		// 	"scrollSpeed":1000
+		// })
+		// wx.config({
+  //           debug: false,
+  //           appId: "{$res['appid']}",
+  //           timestamp: "{$res['timestamp']}",//生成签名的时间戳
+  //           nonceStr: "{$res['nonceStr']}",//生成签名的随机串
+  //           signature: "{$res['signature']}",//签名
+  //           jsApiList: [
+  //               // 所有要调用的 API 都要加到这个列表中
+  //               'checkJsApi',
+  //               'onMenuShareAppMessage',
+  //               'onMenuShareTimeline',
+  //               'onMenuShareQQ',
+  //               'onMenuShareWeibo',
+  //               'onMenuShareQZone'
+  //           ]
+  //       });
+  //       wx.ready(function () {
+  //           //分享到朋友圈  
+  //            wx.onMenuShareTimeline({  
+  //                title: "{$res['title']}", // 分享标题  
+  //                desc: '因为有你的加入让我们的平台更加光彩',
+  //                link:"http://www.coucouchina.com/home/index/cou_xq.html?pid={$res['id']}&status=1&page=detailInfo&from=groupmessage",  
+  //                imgUrl: 'http://www.coucouchina.com/Public/img/s_logo.png', // 分享图标 logo 
+  //                success: function () {  
+  //           		// 分享成功执行此回调函数  
+  //                   // alert('success');
+  //                },  
+  //                cancel: function () {  
+  //                   // alert('cancel');  
+  //                }  
+  //            });   
+  //            //分享给朋友  
+  //            wx.onMenuShareAppMessage({  
+  //                title: "{$res['title']}", // 分享标题  
+  //                desc: '因为有你的加入让我们的平台更加光彩',
+  //                link:"http://www.coucouchina.com/home/index/cou_xq.html?pid={$res['id']}&status=1&page=detailInfo&from=groupmessage",  
+  //                imgUrl: 'http://www.coucouchina.com/Public/img/s_logo.png', // 分享图标  
+  //                trigger: function (res) {  
+  //                    // 不要尝试在trigger中使用ajax异步请求修改本次分享的内容，因为客户端分享操作是一个同步操作，这时候使用ajax的回包会还没有返回  
+  //                },  
+  //                success: function (res) {  
+  //            	// 分享成功执行此回调函数  
+  //                    // alert('已分享');  
+  //                },  
+  //                cancel: function (res) {  
+  //                    // alert('已取消');  
+  //                },  
+  //                fail: function (res) {  
+  //                    // alert(JSON.stringify(res));  
+  //                }  
+  //           });  
+  //           wx.onMenuShareQQ({
+  //           	title: "{$res['title']}", // 分享标题  
+		// 		desc: '因为有你的加入让我们的平台更加光彩',
+		// 		link:"http://www.coucouchina.com/home/index/cou_xq.html?pid={$res['id']}&status=1&page=detailInfo&from=groupmessage",  
+		// 		imgUrl: 'http://www.coucouchina.com/Public/img/s_logo.png', // 分享图标  
+		// 		trigger: function (res) {  
+		// 		// 不要尝试在trigger中使用ajax异步请求修改本次分享的内容，因为客户端分享操作是一个同步操作，这时候使用ajax的回包会还没有返回  
+		// 		},  
+		// 		success: function (res) {  
+		// 		// 分享成功执行此回调函数  
+		// 		// alert('已分享');  
+		// 		},  
+		// 		cancel: function (res) {  
+		// 		// alert('已取消');  
+		// 		},  
+		// 		fail: function (res) {  
+		// 		// alert(JSON.stringify(res));  
+		// 		}
+  //           }) 
+  //           wx.onMenuShareWeibo({
+  //           	title: "{$res['title']}", // 分享标题  
+		// 		desc: '因为有你的加入让我们的平台更加光彩',
+		// 		link:"http://www.coucouchina.com/home/index/cou_xq.html?pid={$res['id']}&status=1&page=detailInfo&from=groupmessage",  
+		// 		imgUrl: 'http://www.coucouchina.com/Public/img/s_logo.png', // 分享图标  
+		// 		trigger: function (res) {  
+		// 		// 不要尝试在trigger中使用ajax异步请求修改本次分享的内容，因为客户端分享操作是一个同步操作，这时候使用ajax的回包会还没有返回  
+		// 		},  
+		// 		success: function (res) {  
+		// 		// 分享成功执行此回调函数  
+		// 		// alert('已分享');  
+		// 		},  
+		// 		cancel: function (res) {  
+		// 		// alert('已取消');  
+		// 		},  
+		// 		fail: function (res) {  
+		// 		// alert(JSON.stringify(res));  
+		// 		}
+  //           }) 
+  //           wx.onMenuShareQZone({
+  //           	title: "{$res['title']}", // 分享标题  
+		// 		desc: '因为有你的加入让我们的平台更加光彩',
+		// 		link:"http://www.coucouchina.com/home/index/cou_xq.html?pid={$res['id']}&status=1&page=detailInfo&from=groupmessage",  
+		// 		imgUrl: 'http://www.coucouchina.com/Public/img/s_logo.png', // 分享图标  
+		// 		trigger: function (res) {  
+		// 		// 不要尝试在trigger中使用ajax异步请求修改本次分享的内容，因为客户端分享操作是一个同步操作，这时候使用ajax的回包会还没有返回  
+		// 		},  
+		// 		success: function (res) {  
+		// 		// 分享成功执行此回调函数  
+		// 		// alert('已分享');  
+		// 		},  
+		// 		cancel: function (res) {  
+		// 		// alert('已取消');  
+		// 		},  
+		// 		fail: function (res) {  
+		// 		// alert(JSON.stringify(res));  
+		// 		}
+  //           })  
+
+        // });
+		</script>
+	</body>
+</html>

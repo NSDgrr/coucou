@@ -1,0 +1,155 @@
+#my_bank{
+    min-height: 650px;
+    overflow: hidden;
+}
+#my_bank > .my_bank_bor{
+    float: left;
+}
+#my_bank > .my_bank_bor:nth-child(1){
+    width: 400px;
+    height: 163px;
+    border: 1px solid #dcdcdc;
+    margin: 30px 0 0 30px;
+    position: relative;
+}
+#my_bank > .my_bank_bor > .bankImg{
+    margin: 40px 0 0 40px;
+    height: 16px;
+}
+#my_bank > .my_bank_bor > .bank_name{
+    margin-left: 4px;
+    font-size: 16px;
+    color: #333333;
+}
+#my_bank > .my_bank_bor > .bank_card{
+    margin: 20px 0 0 70px;
+    font-size: 14px;
+    color: #333333;
+}
+#my_bank > .my_bank_bor > .bank_num{
+    margin: 25px 0 0 70px;
+    font-size: 18px;
+    color: #333333;
+}
+#my_bank > .my_bank_bor > .bank_DeleteImg{
+   position: absolute;
+    top: 70px;
+    right: 40px;
+    display: none;
+}
+#my_bank > .my_bank_bor:nth-child(2){
+    width: 400px;
+    height: 163px;
+    margin: 30px 0 0 40px;
+    border: 1px solid #dcdcdc;
+    position: relative;
+}
+#my_bank > .my_bank_bor:nth-child(3){
+    width: 400px;
+    height: 163px;
+    margin: 40px 0 0 30px;
+    border: 1px solid #dcdcdc;
+    position: relative;
+}
+#my_bank > .my_bank_bor:nth-child(4){
+    width: 400px;
+    height: 163px;
+    margin: 40px 0 0 40px;
+    border: 1px solid #dcdcdc;
+}
+#my_bank > .my_bank_bor > .bank_increase{
+    margin:50px 0 0 180px;
+    height: 40px;
+}
+#my_bank > .my_bank_bor > .increase_bank{
+    font-size: 14px;
+    color: #333333;
+    margin: 10px 0 0 165px;
+}
+
+/*添加银行卡*/
+#myModal { margin: 200px 0 0 -280px; /* PLAY THE WITH THE VALUES TO SEE GET THE DESIRED EFFECT */ }
+.btn_bank{
+    cursor:pointer;
+}
+.modal-content{
+    width: 700px;
+    height: 500px;
+    position: relative;
+}
+#myModalLabel{
+    margin-top: 75px;
+    text-align: center;
+    z-index: 5;
+}
+.inpt{
+    width: 550px;
+    margin:20px  auto 0;
+}
+.symbol{
+    margin-left: 20px;
+    color: #B981D1;
+}
+.message{
+    margin-left: -4px;
+    font-size: 16px;
+    color: #23252f;
+}
+.my_information{
+    width: 400px;
+    height: 40px;
+    font-size: 14px;
+    padding-left:15px;
+}
+.my_information1,.my_information4{
+    margin-left: 35px;
+}
+.my_information2{
+    margin-left: 4px;
+}
+.my_information3{
+    margin-left: 20px;
+}
+.bank_btn{
+    width: 400px;
+    height: 40px;
+    border: none;
+    font-size: 16px;
+    color: #ffffff;
+    margin: 36px 0 0 193px;
+    background: -moz-linear-gradient(left,#ee69ba,#b544ee);
+    background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#ee69ba), to(#b544ee));
+    background: -o-linear-gradient(left,#ee69ba,#b544ee);
+    background: -moz-linear-gradient(top, #ee69ba 0%, #b544ee 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ee69ba), color-stop(100%,#b544ee));
+    background: -webkit-linear-gradient(left, #ee69ba 0%,#b544ee 100%);
+    background: -o-linear-gradient(left, #ee69ba 0%,#b544ee 100%);
+    background: -ms-linear-gradient(left, #ee69ba 0%,#b544ee 100%);
+    background: linear-gradient(left bottom, #ee69ba 0%,#b544ee 100%);
+}
+#bank_esc{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 30px;
+}
+
+
+/*修改密码*/
+#revise_pass{
+    min-height: 540px;
+}
+.revise_pass_p{
+    font-size: 24px;
+    color: #23252f;
+    height: 23px;
+    margin:60px 0 30px  202px;
+
+}
+.inpts{
+    width: 550px;
+    margin:20px 0 0 10px;
+}
+.revise_pass_btn{
+    margin: 40px 0 0 128px;
+}

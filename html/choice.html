@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			div{
+				width: 100%;
+				height: 100vh;
+				background: #fff;
+				opacity: 0.3;
+				line-height: 100vh;
+				font-size: 23px;
+				color: #fff;
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			
+		</div>
+		<script type="text/javascript" src="__PUBLIC__/js/jquery-2.2.3.js"></script>
+		<script type="text/javascript">
+			var url = window.location.href;//https://www.coucouchina.com/home/index/choice.html?pid=953&status=1&state=0&uid=27
+		    var parme = url.split('?')[1];//？后pid=953&status=1&state=0
+		    var pid=parme.split('&')[0];//pid=953
+		    var status=parme.split('&')[1];//status=1&state=0
+		    var state=parme.split('&')[2];
+		    var t_state=state.split('=')[1];
+		    var t_status=status.split('=')[1];
+		    var t_pid=pid.split('=')[1];//app里的pid
+		    var uid=parme.split('&')[3];
+		    var t_uid=uid.split('=')[1];//uid
+			var browser = {
+
+			   versions: function () {
+
+			       var u = navigator.userAgent, app = navigator.appVersion;
+
+			       return {         
+					//移动终端浏览器版本信息
+			           trident: u.indexOf('Trident') > -1, //IE内核
+
+			           presto: u.indexOf('Presto') > -1, //opera内核
+
+			           webKit: u.indexOf('AppleWebKit') > -1, //苹果、谷歌内核
+
+			           gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1, //火狐内核
+
+			           mobile: !!u.match(/AppleWebKit.*Mobile.*/), //是否为移动终端
+
+			           iOS: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
+
+			           Android: u.indexOf('android') > -1 || u.indexOf('Linux') > -1, //android终端或uc浏览器
+
+			           iPhone: u.indexOf('iPhone') > -1, //是否为iPhone或者QQHD浏览器
+
+			           iPad: u.indexOf('iPad') > -1, //是否iPad
+
+			           webApp: u.indexOf('Safari') == -1 //是否web应该程序，没有头部与底部
+
+			       };
+
+			   }(),
+			   language: (navigator.browserLanguage || navigator.language).toLowerCase()
+			}
+			if(browser.versions.mobile){
+				var ua = navigator.userAgent.toLowerCase();
+				if (ua.match(/MicroMessenger/i) == "micromessenger") {
+				//在微信中打开
+					if(t_state==0){
+						 window.location.href="http://share.coucouchina.com/home/index/cou_xq.html?pid="+t_pid+"&status="+t_status+"&state="+t_state+"&uid="+t_uid;
+						
+					}else{
+						window.location.href="https://www.coucouchina.com/home/index/cou_xq.html?pid="+t_pid+"&status="+t_status+"&state="+t_state+"&uid="+t_uid;
+					}
+						
+				}
+				if (ua.match(/WeiBo/i) == "weibo") {
+				//在新浪微博客户端打开
+					window.location.href="https://www.coucouchina.com/home/index/cou_xq.html?pid="+t_pid+"&status="+t_status+"&state="+t_state+"&uid="+t_uid;
+					// window.location.href='https://itunes.apple.com/cn/app/id1216109434';//下载页面
+				}
+				if (ua.match(/QQ/i) == "qq") {
+				//在QQ空间打开
+					if(t_state==0){
+						 window.location.href="http://share.coucouchina.com/home/index/cou_xq.html?pid="+t_pid+"&status="+t_status+"&state="+t_state+"&uid="+t_uid;
+						
+					}else{
+						window.location.href="https://www.coucouchina.com/home/index/cou_xq.html?pid="+t_pid+"&status="+t_status+"&state="+t_state+"&uid="+t_uid;
+					}
+				}
+				if (browser.versions.ios) {
+				//是否在IOS浏览器打开
+					window.location.href="http://share.coucouchina.com/home/index/cou_xq.html?pid="+t_pid+"&status="+t_status+"&state="+t_state+"&uid="+t_uid;
+				}
+				if(browser.versions.android){
+				//是否在安卓浏览器打开
+					window.location.href="http://share.coucouchina.com/home/index/cou_xq.html?pid="+t_pid+"&status="+t_status+"&state="+t_state+"&uid="+t_uid;
+				}
+			}else{
+				window.location.href="https://www.coucouchina.com/home/index/cou_xq.html?pid="+t_pid+"&status="+t_status+"&state="+t_state+"&uid="+t_uid;
+			}
+		</script>
+	</body>
+</html>

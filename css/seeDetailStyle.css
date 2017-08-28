@@ -1,0 +1,44 @@
+#detail{
+    min-height:660px;
+    padding-bottom: 40px;
+    display: none;
+}
+.h1-rt-esc{
+    margin-left: 630px;
+}
+.h1-rt-bot{
+    color: #333333;
+    font-size: 18px;
+    margin: 30px 0 0 30px;
+}
+#detail div{
+    margin: 27px 0 0 30px;
+}
+#detail div span:nth-child(1){
+    font-size: 16px;
+    color: #333333;
+}
+#detail div span:nth-child(2){
+    font-size: 16px;
+    color: #B981D1;
+}
+
+/*收益表格*/
+#table{
+    border:1px solid #dcdcdc;
+    width: 840px;
+    margin: 10px 0 0 30px;
+
+}
+#table tr{
+    height: 50px;
+    border: 1px solid #dcdcdc;
+    text-align: center;
+    line-height: 50px;
+}
+#table tr td{
+    border-right: 1px solid #dcdccd ;
+    font-size: 16px;
+    color: #666666;
+}
+

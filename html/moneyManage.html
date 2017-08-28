@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>凑凑众筹-资金管理</title>
+    <meta name="description" content="凑凑是中国第一家专注餐饮娱乐、健康生活类实体项目股权众筹平台。
+为项目方提供完整的融资解决方案、推广融资项目、匹配合适的投资人；
+为投资人提供精益的融资项目、良好的投资机会。">
+    <meta name="keywords" content="众筹，股权众筹，股权众筹平台，餐饮众筹，餐饮投资，生活类项目投资，生活类项目众筹，娱乐项目众筹，娱乐项目投资，办公众筹，股权投资，联合办公投资，联合办公众筹，凑凑众筹">
+    <link rel="shortcut icon" type="image/ico" href="https://www.coucouchina.com/Public/favicon.ico" />
+</head>
+
+<link rel="stylesheet" href="__PUBLIC__/css/bootstrap.css">
+
+<!--认购项目与投资的项目-->
+<link rel="stylesheet" href="__PUBLIC__/css/personalstyle.css">
+
+
+
+<!--资金管理-->
+<link rel="stylesheet" href="__PUBLIC__/css/moneyManageStyle.css">
+<!--资金管理-我的银行卡-->
+<link rel="stylesheet" href="__PUBLIC__/css/my_bank.css">
+
+<body>
+<div class="cou_head">
+    <div class="head_con">
+		<a href="index.html" class="head_logo"></a>
+		<span class="head_cent">
+			<a href="index.html">凑凑首页</a>
+			<a href="all_xm.html">全部项目</a>
+			<a href="tzlc.html">投资流程</a>
+			<a href="serve.html">提供服务</a>
+		</span>
+		<span class="head_right1">
+			<img class="head_img" src="__PUBLIC__/img/5.png"/>
+			<span class="head_name">哈哈哈哈哈</span>
+			<div class="head_person_list sl-shadow ">
+				<img class="menu_tab" src="__PUBLIC__/img/row_03.png">
+				<a href="per_news.html">个人信息</a>
+				<a href="moneyManage.html">资金管理</a>
+				<a href="PM.html">项目管理</a>
+				<a href="notice.html">消息通知</a>
+				<a href="#x">退出账户</a> 
+			</div>
+		</span>
+		<span class="head_rt2">
+			<a href="#X">发起项目</a>
+		</span>
+	</div>
+</div>
+<!--内容-->
+<div id="subject">
+    <!--个人信息-->
+    <div id="Aside">
+        <div id="backgrd">
+        	<img src="__PUBLIC__/img/tx_03.png" class="tx_bag">
+            <img id="presonImg" src="__PUBLIC__/img/5.png" alt="" class="tx_img">
+            <p class="preson name" id="presonName">凑凑小哥</p>
+            <p class="preson id" id="presonId">ID : 123456</p>
+            <div class="presonLike">未认证</div>
+        </div>
+        <!--左边背景下面的导航列表-->
+        <div class="lt_bot">
+			<a href="per_news.html">个人信息</a>
+			<a href="#x" class="active">资金管理</a>
+			<a href="PM.html">项目管理</a>
+			<a href="notice.html">消息通知</a>
+		</div>
+    </div>
+    <!--全部项目-->
+    <!--右边--认购头部---->
+    <div id="all-project">
+
+        <!--(资金管理)-->
+        <div class="per_cen_right">
+            <ul style="display: block">
+                <a href="#x" class="bort">我的账户</a>
+                <li></li>
+                <a href="#x">资金记录</a>
+                <li></li>
+                <a href="#x">我的银行卡</a>
+                <li></li>
+                <a href="#">修改密码</a>
+            </ul>
+
+            <div class="rt_bot">
+                <!--我的账户-->
+                <div class="rt_bot-none  money_manage">
+                    <!-- <div class="content_myAccount">
+                        <div class="myAccount_up">
+                            <span class="myAccount_up1">可用金额</span>
+                            <span class="myAccount_up2">资金记录</span>
+                            <span class="my_money">
+                                11356.20
+                                <span class="my_money_CN">元</span>
+                            </span>
+
+                            <button class="btn_left">提现</button>
+                            <button class="btn_rt">充值</button>
+                        </div>
+                        <div class="myAccount_top">
+                            <ul>
+                                <li>
+                                    <spam class="myAccount_top_span1">本期收益 :</spam>
+                                    <spam class="myAccount_top_span2">12842.52</spam>
+                                </li>
+                                <li class="myAccount_top_li2">
+                                    <spam class="myAccount_top_span1">累计收益 :</spam>
+                                    <spam class="myAccount_top_span2">52892.30</spam>
+                                </li>
+                                <li class="myAccount_top_li3">
+                                    <spam class="myAccount_top_span1">冻结金融 :</spam>
+                                    <spam class="myAccount_top_span2">50000.00</spam>
+                                </li>
+                            </ul>
+                        </div>
+                    </div> -->
+                </div>
+                <!--/我的账户-->
+                <!--资金记录-->
+                <div class="finace" style="position: relative">
+                     <table class="money_Record">
+                        <tr>
+                           <!--  <td class="Record_title_td Record_title_td4">类型
+                                <img src="__PUBLIC__/img/25.png" alt="">
+                                <ul class="subNav">
+                                    <li>全部</li>
+                                    <li>充值</li>
+                                    <li>提现</li>
+                                    <li>交易</li>
+                                    <li>分红</li>
+                                    <li>退款</li>
+                                </ul>
+                            </td> -->
+                            <td class="Record_title_td">金额</td>
+                            <td class="Record_title_td">交易订单</td>
+                            <td class="Record_title_td">时间</td>
+                            <td class="Record_title_td">备注</td>
+                            <!-- <td class="Record_title_td">
+                                <p class="Record_title_p2">金额</p>
+                            </td>
+                            <td class="Record_title_td">
+                                <p class="Record_title_p3">交易订单</p>
+                            </td>
+                            <td class="Record_title_td">
+                                <p class="Record_title_p4">时间</p>
+                            </td>
+                            <td class="Record_title_td">
+                                <p class="Record_title_p4">备注</p>
+                            </td> -->
+                        </tr>
+                        <!--<tr>
+                            <td class="Record_title_td1">充值</td>
+                            <td class="Record_title_td1">+5000.00</td>
+                            <td class="Record_title_td2">1234567890</td>
+                            <td class="Record_title_td2">2017-05-15 12:13:56</td>
+                            <td class="Record_title_td2">银行卡充值</td>
+                        </tr>
+                        <tr>
+                            <td class="Record_title_td1">提现</td>
+                            <td class="Record_title_td1">-10000.00</td>
+                            <td class="Record_title_td2">1234567890</td>
+                            <td class="Record_title_td2">2017-05-15 12:13:56</td>
+                            <td class="Record_title_td2">提现到支付宝</td>
+                        </tr>
+                        <tr>
+                            <td class="Record_title_td1">交易</td>
+                            <td class="Record_title_td1">-50000.00</td>
+                            <td class="Record_title_td2">1234567890</td>
+                            <td class="Record_title_td2">2017-05-15 12:13:56</td>
+                            <td class="Record_title_td2">将太无二1期投资</td>
+                        </tr>
+                        <tr>
+                            <td class="Record_title_td1">退款</td>
+                            <td class="Record_title_td1">+10000.00</td>
+                            <td class="Record_title_td2">1234567890</td>
+                            <td class="Record_title_td2">2017-05-15 12:13:56</td>
+                            <td class="Record_title_td2">退款到支付宝</td>
+                        </tr>
+                        <tr>
+                            <td class="Record_title_td1">分红</td>
+                            <td class="Record_title_td1">+120000.00</td>
+                            <td class="Record_title_td2">1234567890</td>
+                            <td class="Record_title_td2">2017-05-15 12:13:56</td>
+                            <td class="Record_title_td2">将太无二1期分红</td>
+                        </tr>
+                        <tr>
+                            <td class="Record_title_td1">提现</td>
+                            <td class="Record_title_td1">-10000.00</td>
+                            <td class="Record_title_td2">1234567890</td>
+                            <td class="Record_title_td2">2017-05-15 12:13:56</td>
+                            <td class="Record_title_td2">提现到支付宝</td>
+                        </tr>
+                        <tr>
+                            <td class="Record_title_td1">交易</td>
+                            <td class="Record_title_td1">-50000.00</td>
+                            <td class="Record_title_td2">1234567890</td>
+                            <td class="Record_title_td2">2017-05-15 12:13:56</td>
+                            <td class="Record_title_td2">将太无二1期投资</td>
+                        </tr>
+                        <tr>
+                            <td class="Record_title_td1">退款</td>
+                            <td class="Record_title_td1">+10000.00</td>
+                            <td class="Record_title_td2">1234567890</td>
+                            <td class="Record_title_td2">2017-05-15 12:13:56</td>
+                            <td class="Record_title_td2">退回到支付宝</td>
+                        </tr> -->
+                    </table>
+                </div>
+                <!--/资金记录-->
+                <!--我的银行卡-->
+                <div id="num_bank">
+                    <div id="my_bank">
+                         <!--<div class="my_bank_bor">
+                            <img src="__PUBLIC__/img/bank.png" class="bankImg" alt="">
+                            <span class="bank_name">中国民生银行</span>
+                            <p class="bank_card">储蓄卡</p>
+                            <p class="bank_num">**** **** **** 1234</p>
+                            <img src="__PUBLIC__/img/bank_Delete.png" alt="" class="bank_DeleteImg">
+                        </div>
+                        <div class="my_bank_bor">
+                            <img src="__PUBLIC__/img/bank.png" class="bankImg" alt="">
+                            <span class="bank_name">中国民生银行</span>
+                            <p class="bank_card">储蓄卡</p>
+                            <p class="bank_num">**** **** **** 1234</p>
+                            <img src="__PUBLIC__/img/bank_Delete.png" alt="" class="bank_DeleteImg">
+                        </div>
+                        <div class="my_bank_bor">
+                            <img src="__PUBLIC__/img/bank.png" class="bankImg" alt="">
+                            <span class="bank_name">中国民生银行</span>
+                            <p class="bank_card">储蓄卡</p>
+                            <p class="bank_num">**** **** **** 1234</p>
+                            <img src="__PUBLIC__/img/bank_Delete.png" alt="" class="bank_DeleteImg">
+                        </div> -->
+                        <div class="my_bank_bor">
+                            <img src="__PUBLIC__/img/bank_increase.png" alt="" class="bank_increase btn_bank" data-toggle="modal"
+                                 data-target="#myModal">
+                            <p class="increase_bank btn_bank" data-toggle="modal" data-target="#myModal">添加银行卡</p>
+                        </div>
+                    </div>
+
+                    <div id="box">
+                        <div class="modal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content" id="num_bank_box">
+                                    <div class="modal-header">
+                                        <p type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true" id="bank_esc">×</span>
+                                        </p>
+                                        <h4 class="modal-title" id="myModalLabel">添加银行卡</h4>
+                                    </div>
+
+                                    <div class="inpt">
+                                        <span class="symbol">*</span>
+                                        <span class="message">持卡人</span>
+                                        <input class="my_information my_information1" type="text" placeholder="请输入您的真实姓名">
+                                    </div>
+                                    <div class="inpt">
+                                        <span class="symbol">*</span>
+                                        <span class="message">身份证号码</span>
+                                        <input class="my_information my_information2" type="text" placeholder="请输入您的18位身份证号">
+                                    </div>
+                                    <div class="inpt">
+                                        <span class="symbol">*</span>
+                                        <span class="message">银行卡号</span>
+                                        <input class="my_information my_information3" type="text" placeholder="请输入银行卡号">
+                                    </div>
+                                    <div class="inpt">
+                                        <span class="symbol">*</span>
+                                        <span class="message">手机号</span>
+                                        <input class="my_information my_information4" type="text" placeholder="请输入银行卡绑定的手机号">
+                                    </div>
+                                    <button class="bank_btn">确认添加</button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!--/我的银行卡-->
+                <!--修改的密码-->
+                <div>
+                    <div id="revise_pass">
+                        <p class="revise_pass_p">支付密码修改</p>
+                        <div class="inpts">
+                            <span class="symbol">*</span>
+                            <span class="message">旧密码</span>
+                            <input class="my_information my_information4" type="password"  placeholder="请输入旧的支付密码"  maxlength="6">
+                        </div>
+                        <div class="inpts">
+                            <span class="symbol">*</span>
+                            <span class="message">新密码</span>
+                            <input class="my_information my_information4" type="password" placeholder="请输入6位新支付密码"  maxlength="6" id="pass">
+                        </div>
+                        <div class="inpts">
+                            <span class="symbol">*</span>
+                            <span class="message">确认密码</span>
+                            <input class="my_information my_information3" type="password" placeholder="请再输入6位新密码" maxlength="6" id="pass_re">
+                        </div>
+                        <button class="bank_btn revise_pass_btn">确认修改</button>
+                        <div class="alert alert-danger alert-dismissible" role="alert" style="display: none" id="aa">您输入的两次密码不一致</div>
+                    </div>
+
+                </div>
+                <!--/修改的密码-->
+            </div>
+        </div>
+        <!-- /(资金管理)-->
+
+
+    </div>
+</div>
+<!-- /(项目通知)-->
+
+
+<!--尾部-->
+<div class="cou_foot">
+    <div class="foot_con">
+        <ul class="foot_top">
+            <li class="foot_top1">
+                <b>关于我们</b>
+                <a href="#x">公司介绍</a>
+                <a href="#x">团队介绍</a>
+                <a href="#x">加入我们</a>
+                <a href="#x">联系我们</a>
+            </li>
+            <li class="foot_top1">
+                <b>帮助中心</b>
+                <a href="https://www.coucouchina.com/home/index/help.html">常见问题</a>
+                <a href="https://www.coucouchina.com/home/index/help.html">新手指南</a>
+                <a href="https://www.coucouchina.com/home/index/help.html">投资人指南</a>
+                <a href="https://www.coucouchina.com/home/index/help.html">项目方指南</a>
+            </li>
+            <li class="foot_top3">
+                <b>联系我们</b>
+                <p>公司名称：凑凑网络科技有限公司</p>
+                <p>公司邮箱：coucou@coucouchina.com</p>
+                <p>公司地址：北京市海淀区双清路甲79号启迪之星</p>
+            </li>
+            <li class="foot_top4">
+                <img src="__PUBLIC__/img/pubN.png"/>
+                <p>凑凑微信公众号</p>
+            </li>
+            <li class="foot_top5">
+                <img src="__PUBLIC__/img/ios_ewm.png"/>
+                <p>凑凑客户端下载</p>
+            </li>
+        </ul>
+        <p class="foot_bot">
+            <b>友情链接</b>
+            <a href="http://food.cctv.com/">CCTV美食台</a>
+            <a href="http://www.douguo.com/">豆果美食</a>
+            <a href="http://www.meishichina.com/">美食天下</a>
+            <a href="http://www.zhms.cn/">中华美食</a>
+            <a href="http://www.fancai.com/">饭菜网</a>
+            <a href="http://www.jiupinjt.com/">九品餐饮</a>
+            <a href="http://www.haodou.com/">好豆网</a>
+            <a href="http://www.shotamuni.com/">将太无二</a>
+            <a href="http://www.soucaipu.cn/">搜菜谱美食</a>
+            <a href="http://www.meishij.net/">美食节</a>
+        </p>
+    </div>
+</div>
+<div class="cou_bottom">
+    京ICP备17012351号 copyright©2017 coucouchian.com版权所有
+</div>
+<!-- /尾部-->
+<script src="__PUBLIC__/js/jquery-2.2.3.js"></script>
+<script src="__PUBLIC__/js/bootstrap.js"></script>
+<script>
+
+    //个人中信息项卡（顶部）
+    $('.per_cen_right ul a').click(function () {
+        $(this).addClass('bort').siblings().removeClass('bort');
+        $(".rt_bot > div").eq($(".per_cen_right ul a").index(this)).show().siblings().hide();
+    });
+
+    //查看收益明细
+    $("#see-detail").click(function () {
+        $(".rt_bot-none").hide();
+        $("#detail").show();
+        if ($("#detail").show()) {
+            $("#nav_lnvestnent").click(function () {
+                $("#nav_lnvestnent_content").show();
+                $("#detail").hide();
+            })
+        }
+    });
+
+    //资金记录中-类型-下拉列表
+    //var Record_title_type11=document.getElementById("Record_title_type11");
+    $(".Record_title_td4").mouseover(function () {
+        $(".subNav").show();
+    });
+    $(".Record_title_td4").mouseout(function () {
+        $(".subNav").hide();
+    });
+    //添加银行卡
+    $(document).ready(function () {
+        $(".btn_bank").click(function () {
+            $("#box").show();
+        });
+
+    });
+//触摸银行卡 显示删除图标及删除银行卡；
+    $(".my_bank_bor").mouseover(function () {
+//        $(this).siblings();
+        $(".bank_DeleteImg").eq($(".my_bank_bor").index(this)).show();
+        $(this).css("border","1px solid #b981d1");
+    });
+    $(".my_bank_bor").mouseout(function () {
+//        $(this).siblings();
+        $(".bank_DeleteImg").eq($(".my_bank_bor").index(this)).hide();
+        $(this).css("border","1px solid #dcdcdc");
+    });
+
+    $(".bank_DeleteImg").click(function () {
+        $(this).siblings();
+        $(".my_bank_bor").eq($(".bank_DeleteImg").index(this)).remove();
+
+    });
+
+    //修改密码中的新密码确认
+    $("#pass_re").blur(function () {
+
+        if($("#pass").val()!== $("#pass_re").val()){
+            $("#aa").show();
+        }else {
+            $("#aa").hide();
+        }
+    });
+
+                                                // 数据交互
+    var url='http://192.168.31.35/coucou/';
+    $.ajax({
+        type:'post',
+        url:url+'Api/Info1/finance',
+        dataType:'json',
+        async:true,
+        data:{
+            token:'coucou',
+            tel:localStorage.tel
+        },
+        success:function(e){
+            var data=e.data;
+            console.log(data)
+            if(e.code==1){
+                // 基本信息
+                $('.nick_name').html(data.nickname);
+                $('.name').html(data.nickname);
+                $('.head_name').html(data.nickname);
+                $('.id').html('ID：'+data.id)
+                $('.tx_img').attr('src',data.img)
+                $('.tx_bag').attr('src',data.img)
+                $('.head_img').attr('src',data.img)
+                if(data.identitycard!=''){
+                    $('.presonLike').html('已认证')
+                }else{
+                    $('.verified').html('未认证')
+                }
+
+                // 我的账户
+                var html='';
+                html+='<div class="content_myAccount">'+
+                        '<div class="myAccount_up">'+
+                            '<span class="myAccount_up1">可用金额</span>'+
+                            '<span class="myAccount_up2">资金记录</span>'+
+                            '<span class="my_money">'+data.money+'<span class="my_money_CN">元</span>'+
+                            '</span>'+
+                            '<button class="btn_left">提现</button>'+
+                            '<button class="btn_rt">充值</button>'+
+                        '</div>'+
+                        '<div class="myAccount_top">'+
+                            '<ul>'+
+                                '<li>'+
+                                    '<spam class="myAccount_top_span1">本期收益 :</spam>'+
+                                    '<spam class="myAccount_top_span2">'+data.new_earnings+'</spam>'+
+                                '</li>'+
+                                '<li class="myAccount_top_li2">'+
+                                    '<spam class="myAccount_top_span1">累计收益 :</spam>'+
+                                    '<spam class="myAccount_top_span2">'+data.earning+'</spam>'+
+                                '</li>'+
+                                '<li class="myAccount_top_li3">'+
+                                    '<spam class="myAccount_top_span1">冻结金融 :</spam>'+
+                                    '<spam class="myAccount_top_span2">'+data.frozen_capital+'</spam>'+
+                                '</li>'+
+                            '</ul>'+
+                        '</div>'+
+                    '</div>'
+                $('.money_manage').append(html) 
+                // 资金记录
+                var finace=data.finace;
+                console.log(finace);
+                for(var f=0;f<finace.length;f++){
+
+                    function getLocalTime(nS) {     
+                       // return new Date(parseInt(nS) * 1000).toLocaleString().replace(/年|月/g, "-").replace(/日/g, " "); 
+                       return new Date(parseInt(nS) * 1000).toISOString().replace(/T/g,' ').replace(/\.[\d]{3}Z/,'');
+                    }  
+                    var time=getLocalTime(finace[f].time) 
+                    var finaceHtml='';
+                    finaceHtml+='<tr>'+
+                                    '<td class="Record_title_td1">'+finace[f].money+'</td>'+
+                                    '<td class="Record_title_td2">'+finace[f].order_id+'</td>'+
+                                    '<td class="Record_title_td2">'+time+'</td>'+
+                                    '<td class="Record_title_td2">'+finace[f].value+'</td>'+
+                                '</tr>';
+                    $('.money_Record').append(finaceHtml)            
+                           
+                }
+                // 我的银行卡
+                var bankCard=data.bank;
+                console.log(bankCard)
+                for(var i=0;i<bankCard.length;i++){
+                    var bankHtml='';
+                    bankHtml+='<div class="my_bank_bor">'+
+                            '<img src="__PUBLIC__/img/bank.png" class="bankImg" alt="">'+
+                            '<span class="bank_name">'+bankCard[i].type+'</span>'+
+                            '<p class="bank_card">储蓄卡</p>'+
+                            '<p class="bank_num">'+bankCard[i].card+'</p>'+
+                            '<img src="http://192.168.31.35/coucou/Public/img/bank_Delete.png" alt="" class="bank_DeleteImg">'+
+                        '</div>';
+                    $('#my_bank').prepend(bankHtml);
+                }
+
+            }
+        },
+        error:function(e){
+            alert('error')
+        }
+    })                                            
+</script>
+</body>
+</html>

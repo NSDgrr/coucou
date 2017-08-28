@@ -1,0 +1,278 @@
+.rt_now_rz{
+	padding-left: 30px;
+}
+.rt_now_rz > p {
+  width: 840px;
+  height: 53px;
+  line-height: 53px;
+  color: #333;
+  font-size: 16px;
+  margin-top: 12px;
+}
+.rt_now_rz .now_rz_con {
+  width: 840px;
+  height: 272px;
+  border: 1px solid #dcdcdc;
+}
+.rt_now_rz .now_rz_con .rz_con_t {
+  padding: 19px;
+  width: 838px;
+  height: 193px;
+  border-bottom: 1px solid #DCDCDC;
+}
+.rt_now_rz .now_rz_con .rz_con_t img {
+  width: 200px;
+  height: 154px;
+  background-size: contain;
+  margin-right: 20px;
+  display: inline;
+  float: left;
+}
+.rt_now_rz .now_rz_con .rz_con_t .con_t_rt {
+  width: 580px;
+  height: 154px;
+  float: left;
+}
+.rt_now_rz .now_rz_con .rz_con_t .con_t_rt .con_t_rt1 {
+  padding-top: 10px;
+}
+.rt_now_rz .now_rz_con .rz_con_t .con_t_rt .con_t_rt1 .rt1_tit {
+  font-size: 18px;
+  color: #333;
+  margin-right: 35px;
+}
+.rt_now_rz .now_rz_con .rz_con_t .con_t_rt .con_t_rt1 .rt1_dq {
+  font-size: 14px;
+  color: #333;
+  background: url(../img/xq_05.jpg) no-repeat;
+  background-size: contain;
+  padding-left: 29px;
+}
+.rt_now_rz .now_rz_con .rz_con_t .con_t_rt .con_t_rt1 #djs {
+  font-size: 16px;
+  float: right;
+}
+.rt_now_rz .now_rz_con .rz_con_t .con_t_rt .con_t_rt1 #djs b {
+  font-size: 16px;
+  font-weight: normal;
+  color: #a1a1a1;
+  margin: 0 7px;
+}
+.rt_now_rz .now_rz_con .rz_con_t .con_t_rt .con_t_rt2 {
+  font-size: 14px;
+  line-height: 54px;
+  color: #666;
+}
+.rt_now_rz .now_rz_con .rz_con_t .con_t_rt .number_tiao {
+  width: 580px;
+  height: 6px;
+  position: relative;
+  background: #cdcdce;
+  border-radius: 3px;
+}
+.rt_now_rz .now_rz_con .rz_con_t .con_t_rt .number_tiao .number_shown {
+  width: 100%;
+  height: 6px;
+  position: absolute;
+  background-color: #B981D1;
+  top: 0;
+  left: 0;
+  border-radius: 3px;
+}
+.rt_now_rz .now_rz_con .rz_con_t .con_t_rt .number_tiao .number_num {
+  position: absolute;
+  width: 60px;
+  height: 20px;
+  border-radius: 10px;
+  line-height: 18px;
+  font-size: 12px;
+  border: 1px solid #B981D1;
+  background-color: #fff;
+  right: 0;
+  top: -8px;
+  text-align: center;
+}
+.rt_now_rz .now_rz_con .rz_con_t .con_t_rt .con_t_rt4 {
+  margin-top: 43px;
+  font-size: 16px;
+  color: #333;
+}
+.rt_now_rz .now_rz_con .rz_con_t .con_t_rt .con_t_rt4 span {
+  float: left;
+}
+.rt_now_rz .now_rz_con .rz_con_t .con_t_rt .con_t_rt4 .rt4_per {
+  width: 228px;
+  display: inline-block;
+}
+.rt_now_rz .now_rz_con .rz_con_t .con_t_rt .con_t_rt4 .rt4_all {
+  width: 220px;
+  display: inline-block;
+}
+.rt_now_rz .now_rz_con .rz_con_t .con_t_rt .con_t_rt4 .rt4_rg {
+  float: right;
+}
+.rt_now_rz .now_rz_con .rz_con_b {
+  padding: 20px 19px 19px 19px;
+  width: 838px;
+  height: 79px;
+}
+.rt_now_rz .now_rz_con .rz_con_b > span {
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  color: #333;
+  background: url(../img/per_03.png) no-repeat left;
+  padding-left: 27px;
+  margin-left: 145px;
+  display: block;
+  float: left;
+}
+.rt_now_rz .now_rz_con .rz_con_b > a {
+  width: 300px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  margin-left: 20px;
+  text-align: center;
+  display: inline-block;
+  float: left;
+  color: #fff;
+  background: -webkit-linear-gradient(left, #ee69ba, #b544ee);
+}
+.rt_success_rz {
+  padding-left: 30px;
+  height: auto;
+}
+.rt_success_rz > p {
+  width: 840px;
+  height: 53px;
+  line-height: 53px;
+  color: #333;
+  font-size: 16px;
+  margin-top: 12px;
+}
+.rt_success_rz .succ_rz_con {
+  width: 840px;
+  height: 272px;
+  border: 1px solid #dcdcdc;
+}
+.rt_success_rz .succ_rz_con .rz_con_t {
+  padding: 19px;
+  width: 838px;
+  height: 193px;
+  border-bottom: 1px solid #DCDCDC;
+}
+.rt_success_rz .succ_rz_con .rz_con_t img {
+  width: 200px;
+  height: 154px;
+  background-size: contain;
+  margin-right: 20px;
+  display: inline;
+  float: left;
+}
+.rt_success_rz .succ_rz_con .rz_con_t .con_t_rt {
+  width: 580px;
+  height: 154px;
+  float: left;
+}
+.rt_success_rz .succ_rz_con .rz_con_t .con_t_rt .con_t_rt1 {
+  padding-top: 10px;
+}
+.rt_success_rz .succ_rz_con .rz_con_t .con_t_rt .con_t_rt1 .rt1_tit {
+  font-size: 18px;
+  color: #333;
+  margin-right: 35px;
+}
+.rt_success_rz .succ_rz_con .rz_con_t .con_t_rt .con_t_rt1 .rt1_dq {
+  font-size: 14px;
+  color: #333;
+  background: url(../img/xq_05.jpg) no-repeat;
+  background-size: contain;
+  padding-left: 29px;
+}
+.rt_success_rz .succ_rz_con .rz_con_t .con_t_rt .con_t_rt1 .rt1_succ {
+  font-size: 20px;
+  float: right;
+  color: #B981D1;
+}
+.rt_success_rz .succ_rz_con .rz_con_t .con_t_rt .con_t_rt2 {
+  font-size: 14px;
+  line-height: 54px;
+  color: #666;
+}
+.rt_success_rz .succ_rz_con .rz_con_t .con_t_rt .number_tiao {
+  width: 580px;
+  height: 6px;
+  position: relative;
+  background: #cdcdce;
+  border-radius: 3px;
+}
+.rt_success_rz .succ_rz_con .rz_con_t .con_t_rt .number_tiao .number_shown {
+  width: 100%;
+  height: 6px;
+  position: absolute;
+  background-color: #B981D1;
+  top: 0;
+  left: 0;
+  border-radius: 3px;
+}
+.rt_success_rz .succ_rz_con .rz_con_t .con_t_rt .number_tiao .number_num {
+  position: absolute;
+  width: 60px;
+  height: 20px;
+  border-radius: 10px;
+  line-height: 18px;
+  font-size: 12px;
+  border: 1px solid #B981D1;
+  background-color: #fff;
+  right: 0;
+  top: -8px;
+  text-align: center;
+}
+.rt_success_rz .succ_rz_con .rz_con_t .con_t_rt .con_t_rt4 {
+  margin-top: 43px;
+  font-size: 16px;
+  color: #333;
+}
+.rt_success_rz .succ_rz_con .rz_con_t .con_t_rt .con_t_rt4 span {
+  float: left;
+}
+.rt_success_rz .succ_rz_con .rz_con_t .con_t_rt .con_t_rt4 .rt4_per {
+  width: 228px;
+  display: inline-block;
+}
+.rt_success_rz .succ_rz_con .rz_con_t .con_t_rt .con_t_rt4 .rt4_all {
+  width: 220px;
+  display: inline-block;
+}
+.rt_success_rz .succ_rz_con .rz_con_t .con_t_rt .con_t_rt4 .rt4_rg {
+  float: right;
+}
+.rt_success_rz .succ_rz_con .rz_con_b {
+  padding: 20px 19px 19px 19px;
+  width: 838px;
+  height: 79px;
+}
+.rt_success_rz .succ_rz_con .rz_con_b > span {
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  color: #333;
+  background: url(../img/per_03.png) no-repeat left;
+  padding-left: 27px;
+  margin-left: 145px;
+  display: block;
+  float: left;
+}
+.rt_success_rz .succ_rz_con .rz_con_b > a {
+  width: 300px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  margin-left: 20px;
+  text-align: center;
+  display: inline-block;
+  float: left;
+  color: #fff;
+  background: -webkit-linear-gradient(left, #ee69ba, #b544ee);
+}

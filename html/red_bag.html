@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"  />
+		<title>玩分享 拆红包</title>
+		<script>
+			onresize=function(){
+				document.documentElement.style.fontSize=innerWidth/10+'px';
+			}
+			document.documentElement.style.fontSize=innerWidth/10+'px';
+		</script>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/red_bag.css"/>
+	</head>
+	<body>
+		<!-- <div class="bag_head">玩分享 拆红包</div> -->
+		<div class="bag_center">
+			<!--拆红包状态-->
+			<div class="red_bag_con">
+				<div class="open">
+					<img class="tear" src="__PUBLIC__/img/b_tear.png"/>
+					<img class="circle4" src="__PUBLIC__/img/circle4.png"/>
+					<img class="circle5" src="__PUBLIC__/img/circle5.png"/>
+					<img class="circle6" src="__PUBLIC__/img/circle6.png"/>
+				</div>
+			</div>
+			<!--拆完后状态-->
+			<div class="red_bag_con2">
+				<div class="i_get2">很遗憾没有抽到</div>
+				<div class="h_get2">很遗憾没有抽到</div>
+			</div>
+			<p>
+				<span class="rule">活动详情</span>
+				<span class="bag r_bag">Word红包</span>
+			</p>
+			<!--飘落的money-->
+			<img src="__PUBLIC__/img/b_mon.png" class="b_mon"/>
+		</div>
+		<div class="bag_cont">
+			<span>已有<i class="friends">6</i>个好友帮他拆红包</span>
+			<p>累计现金红包<i class="moneys">88.88</i>元</p>
+			<div class="bag_friend">
+				<div class="bag_friend_con">
+					<p>
+						<img class="b_headImg" src="__PUBLIC__/img/b_headImg.png"/>
+						<span class="gift_model">
+							<img src="__PUBLIC__/img/b_ticket.png"/>
+						</span>
+						<span class="gift">将太无二8折券</span>
+					</p>
+					<p>
+						<img class="b_headImg" src="__PUBLIC__/img/b_headImg.png"/>
+						<span class="gift_model">
+							<img src="__PUBLIC__/img/b_gift.png"/>
+						</span>
+						<span class="gift">小米移动电源一个</span>
+					</p>
+					<p>
+						<img class="b_headImg" src="__PUBLIC__/img/b_headImg.png"/>
+						<span class="gift_model">
+							<img src="__PUBLIC__/img/b_money.png"/>
+						</span>
+						<span class="money">1.99<i>元</i></span>
+					</p>
+					<p>
+						<img class="b_headImg" src="__PUBLIC__/img/b_headImg.png"/>
+						<span class="gift_model">
+							<img src="__PUBLIC__/img/b_ticket.png"/>
+						</span>
+						<span class="gift">将太无二8折券</span>
+					</p>
+					<p>
+						<img class="b_headImg" src="__PUBLIC__/img/b_headImg.png"/>
+						<span class="gift_model">
+							<img src="__PUBLIC__/img/b_gift.png"/>
+						</span>
+						<span class="gift">小米移动电源一个</span>
+					</p>
+					<p>
+						<img class="b_headImg" src="__PUBLIC__/img/b_headImg.png"/>
+						<span class="gift_model">
+							<img src="__PUBLIC__/img/b_money.png"/>
+						</span>
+						<span class="money">1.99<i>元</i></span>
+					</p>
+					<p>
+						<img class="b_headImg" src="__PUBLIC__/img/b_headImg.png"/>
+						<span class="gift_model">
+							<img src="__PUBLIC__/img/b_ticket.png"/>
+						</span>
+						<span class="gift">将太无二8折券</span>
+					</p>
+					<p>
+						<img class="b_headImg" src="__PUBLIC__/img/b_headImg.png"/>
+						<span class="gift_model">
+							<img src="__PUBLIC__/img/b_gift.png"/>
+						</span>
+						<span class="gift">小米移动电源一个</span>
+					</p>
+					<p>
+						<img class="b_headImg" src="__PUBLIC__/img/b_headImg.png"/>
+						<span class="gift_model">
+							<img src="__PUBLIC__/img/b_money.png"/>
+						</span>
+						<span class="money">1.99<i>元</i></span>
+					</p>
+				</div>
+			</div>	
+			<div class="bag_friend2">
+				
+			</div>			
+		</div>
+		<div class="bag_foot">
+			<!-- <img src="__PUBLIC__/img/bott.png"/> -->
+		</div>
+		<!--活动规则-->
+		<div class="bag_rule">
+			<div class="rule_con">
+				<div class="rule_top">
+					<div class="top_con">
+						<h5>活动介绍</h5>
+						<h6>
+							分享项目详情，让好友帮你拆红包大奖，同时好友也会为自己拆得红包大奖，好友越多拆出的奖品越多，上不封顶。（每个好友仅限拆一次红包）
+						</h6>
+						<h5 style="margin-top:0.6rem;">奖品展示</h5>
+						<div class="prizes">
+							<img src="__PUBLIC__/img/prizes.png"/>
+						</div>
+					</div>	
+				</div>
+				<line></line>
+				<img src="__PUBLIC__/img/b_close.png" class="close" id="clr"/>
+			</div>
+		</div>
+		<!--我的红包-->
+		<div class="my_bag">
+			<div class="bag_con">
+				<img src="__PUBLIC__/img/no_bag.png" class="no_bag"/>
+				<img src="__PUBLIC__/img/b_close.png" class="close" id="clnb" />
+			</div>
+		</div>
+		<!--我的红包/有奖品-->
+		<div class="red_bag">
+			<div class="rb_con">
+				<div class="rb_top">
+					<h2>Word红包</h2>
+					<section>
+						<p class="g_money">
+							<img src="__PUBLIC__/img/b_money.png"/>
+							<span>1.99<i>元</i></span>
+						</p>
+						<p class="g_gift">
+							<img src="__PUBLIC__/img/b_gift.png"/>
+							<span>小米移动电源</span>
+						</p>
+						<p class="g_money">
+							<img src="__PUBLIC__/img/b_money.png"/>
+							<span>1.99<i>元</i></span>
+						</p>
+						<p class="g_gift">
+							<img src="__PUBLIC__/img/b_gift.png"/>
+							<span>小米移动电源</span>
+						</p>
+						<p class="g_money">
+							<img src="__PUBLIC__/img/b_money.png"/>
+							<span>1.99<i>元</i></span>
+						</p>
+					</section>
+					<h5>更多红包请前往凑凑APP查看</h5>
+				</div>
+				<line></line>
+				<img src="__PUBLIC__/img/b_close.png" class="close" id="clhb" />
+			</div>
+		</div>
+		<!--领取红包-->
+		<div class="get_bag">
+			<div class="get_bag_con">
+				<span>领取红包</span>
+				<input type="text" id="phone_num" placeholder="输入手机号" maxlength="11" />
+				<p>
+					<input type="text" name="code" id="code" placeholder="验证码" />
+					<img src="__PUBLIC__/img/get.png" id="gain"/>
+				</p>
+				<img src="__PUBLIC__/img/get_bag.png" id="go_get"/>
+				<img src="__PUBLIC__/img/b_close.png" class="close" id="clrb" />
+			</div>
+		</div>
+		<!--领取成功-->
+		<div class="got_red_bag">
+			<div class="got_red_bag_con">
+				<p>
+					<a href="#">
+						<img src="__PUBLIC__/img/open2.png"/>
+					</a>
+					<a href="#">
+						<img src="__PUBLIC__/img/b_share.png"/>
+					</a>
+				</p>
+				
+			</div>
+		</div>
+		<script src="__PUBLIC__/js/jquery-2.2.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="__PUBLIC__/js/red_bag.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			var words=3;
+			var now=new Date();
+			var sec=now.getSeconds();
+			var ad=sec%words;
+			ad+=1;
+			if(ad==1){
+				images='__PUBLIC__/img/w1.png';
+			}
+			if(ad==2){
+				images='__PUBLIC__/img/w2.png';
+			}
+			if(ad==3){
+				images='__PUBLIC__/img/w3.png';
+			}
+			document.write('<div class="words">');
+			document.write('<img src=\"'+images+'\">');
+			document.write('</div>');
+			$('.red_bag_con').append($('.words'))
+		</script>
+	</body>
+</html>

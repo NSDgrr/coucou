@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>凑凑众筹-项目详情</title>
+    <meta name="description" content="凑凑是中国第一家专注餐饮娱乐、健康生活类实体项目股权众筹平台。
+为项目方提供完整的融资解决方案、推广融资项目、匹配合适的投资人；
+为投资人提供精益的融资项目、良好的投资机会。">
+    <meta name="keywords" content="众筹，项目众筹，工作室投资，工作室众筹，餐饮众筹，餐饮投资，生活类项目投资，生活类众筹，娱乐类众筹，娱乐类项目投资，股权众筹，凑凑众筹">
+    <link rel="stylesheet" href="__PUBLIC__/css/bootstrap.css">
+    <link rel="shortcut icon" type="image/ico" href="https://www.coucouchina.com/Public/favicon.ico" />    
+    <!--项目详情主页-->
+    <link rel="stylesheet" href="__PUBLIC__/css/style.css">
+    <style>
+		.big_box{
+			width: 600px;
+			height: 400px;
+			background: #fff;
+			border-radius: 5px;
+			margin: 0 auto;
+			position: fixed;
+			top: 50%;
+			margin-top: -200px;
+			left: 50%;
+			transform: translateX(-50%);
+			z-index: 99;
+			box-shadow: 0 0 20px rgba(77, 15, 0, 0.18);
+			display: none;
+		}
+		.big_box .first{
+			width: 100%;
+			font-size: 24px;
+			margin-top: 60px;
+			text-align: center;
+			color: #333;
+		}
+		.big_box .second{
+			width: 100%;
+			text-align: center;
+			color: #333;
+			font-size: 20px;
+			margin-top: 20px;
+		}
+		.big_box .expect{
+			width: 141px;
+		    height: 141px;
+		    position: absolute;
+		    top: 0;
+		    left: 0;
+		}
+		.big_box .close{
+			width: 23px;
+		    height: 22px;
+		    position: absolute;
+		    top: 30px;
+		    right: 30px;
+            opacity: 1;
+		}
+		.big_box .dlApp{
+			width: 200px;
+			height: 200px;
+			display: block;
+			margin: 16px 0 0 200px;
+		}
+	</style>
+</head>
+<body style="min-width: 1300px">
+<div class="cou_head">
+    <div class="head_con">
+        <a href="https://www.coucouchina.com/home/index/index.html" class="head_logo"></a>
+        <span class="head_cent">
+			<a href="index.html">凑凑首页</a>
+			<a href="all_xm.html">全部项目</a>
+			<a href="tzlc.html">投资流程</a>
+			<a href="serve.html">提供服务</a>
+		</span>
+        <span class="head_rt">
+            <!-- <a href="https://www.coucouchina.com/home/index/register.html" class="reg">注册</a>
+            |
+            <a href="https://www.coucouchina.com/home/index/login.html" class="log">登录</a> -->
+            <a href="#x" class="cli reg">注册</a>
+            |
+            <a href="#x" class="cli log">登录</a>
+        </span>
+        <span class="head_rt2">
+            <a href="#x" class="cli">发起项目</a>
+        </span>
+    </div>
+</div>
+<!--中间内容详情  将太无二1期 -->
+<div>
+    <div class="particularsBorder">
+        <div id="particulars">
+            <div id="particularsImg" style="float: left">
+                <div style="width:720px;height:405px;float: left;margin-top: 40px">
+                    <video src="" controls="controls" class="banners" id="videoMP4">
+                        <source src="#" type="video/ogg">
+                        <source src="#" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <img src="" alt="" class="banners" id="banners">
+                </div>
+                <ul id="four_ul">
+                    <li id="four_ul_li1">
+                        <img src="__PUBLIC__/img/18.png" class="four_ul_img1">
+                        <p>126次</p>
+                    </li>
+                    <!--<li class="four_ul_li" id="evaluate">-->
+                    <!--<button id="four_ul_li2">-->
+                    <!--<div id="four_ul2">-->
+                    <!--<img src="__PUBLIC__/img/6.png">-->
+                    <!--<p>评论(126)</p>-->
+                    <!--</div>-->
+                    <!--</button>-->
+                    <!--</li>-->
+                    <li id="four_ul_li3" style="float: left">
+                        <button id="btn1" class="cli">
+                            <img src="__PUBLIC__/img/9.png" id="btnimg1">
+                            <p id="btnp1">分享</p>
+                        </button>
+                    </li>
+
+                    <li class="four_ul_li" style="">
+                        <button id="four_ul_li4" class="cli">
+                            <img src="__PUBLIC__/img/10.png" id="Heart">
+                            <p id="cancelHeart">关注</p>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+            <div id="particularsData">
+                <div>
+                    <p id="headline" style="height: 24px"></p>
+                    <img src="__PUBLIC__/img/7.png" id="locationImg">
+                    <p id="locationCity">加载中...</p>
+                </div>
+                <div>
+                    <p id="state" style="height: 14px">加载中...</p>
+                </div>
+                <div id="btnLG" style="height: 55px">
+
+                </div>
+                <!--进度条-->
+                <div style="height: 5px">
+                    <div class="container1">
+                        <div id="bar" style="width:0%;">
+                            <span id="total" style="right: -43px;">0%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="moneyParticulars">
+                    <ul id="moneyParticularsUL">
+                        <li id="MP1">
+                            <p class="riseMoney"></p>
+                            <p class="nullMonet">起投金额</p>
+                        </li>
+                        <li id="MP2">
+                            <P class="riseMoney"></P>
+                            <P class="nullMonet">项目总额</P>
+                        </li>
+                        <li id="MP3">
+                            <p class="riseMoney"></p>
+                            <p class="nullMonet">认购总额</p>
+                        </li>
+                    </ul>
+                </div>
+                <div id="personNumber">
+                    <img src="__PUBLIC__/img/2.png" id="personNumber1">
+                    <p id="personNumber2">认购人数:</p>
+                    <p id="personNumber3">
+                        
+                    </p>
+                </div>
+                <div id="circle">
+                    <ul>
+                        <li class="circle"></li>
+                        <li class="circle CS"></li>
+                        <li class="circle CS"></li>
+                        <li class="circle CS"></li>
+                        <li class="circle CS"></li>
+                        <li class="circle CS"></li>
+                        <li class="circle CS"></li>
+                        <li class="circle CS"></li>
+                        <li class="circle CS"></li>
+                    </ul>
+                </div>
+                <div id="confirm">
+                    <button id="btn" class="cli" disabled="">我要认购</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--倒计时以下-->
+<div id="particulars_bottom">
+    <!--计时器-->
+    <div class="time">
+        <span>剩余时间 : </span>
+        <span id="t_d">00</span>
+        <span>天</span>
+        <span id="t_h">00</span>
+        <span>时</span>
+        <span id="t_m">00</span>
+        <span>分</span>
+        <span id="t_s">00</span>
+        <span id="TimeS">秒</span>
+    </div>
+
+    <div id="particulars_bottom1" style="position: relative">
+
+        <div id="inform_left">
+            <ul>
+                <li class="inform_left_li"><a class="inform_left_a" id="particularsCut">项目介绍</a></li>
+                <li class="inform_left_li"><a class="inform_left_a">融资概况</a></li>
+                <li class="inform_left_li"><a class="inform_left_a">项目公告</a></li>
+                <li class="inform_left_li"><a class="inform_left_a">风险提示</a></li>
+            </ul>
+        </div>
+        <!--</div>-->
+        <!-- 确认能用——项目公告-->
+        <div id="inform_right">
+            <div style="margin:0px 0 0 40px;width: 860px;padding-bottom: 20px">
+                <!--项目介绍-->
+                <div style="margin-top: 20px">
+                    <div class="left_content conent2" id="detail">
+                        <!--直营门店 列表-->
+                    </div>
+                </div>
+                <!--融资概况-->
+                <div style="margin-top: 40px">
+                    <div class="left_content conent4" style="margin-top: 20px">
+                        <!--  -->
+                        <span class="com company">项目公司：北京睿加罗餐饮管理有限公司</span>
+                        <span class="com pattern">筹集模式：收益权</span>
+                        <span class="com deadline">投资期限：5年</span>
+                        <!--融资金额-->
+                        <p class="character1">融资方案</p>
+                        <table class="table table-bordered" id="moneyTable1">
+                            <tr>
+                                <td>
+                                    <p class="moneyNumber" id="moneyNumber1">240万</p>
+                                    <p class="meanMoney">融资总额</p>
+                                </td>
+                                <td>
+                                    <p class="moneyNumber" id="moneyNumber2">80份</p>
+                                    <p class="meanMoney">融资份数</p>
+                                </td>
+                                <td>
+                                    <p class="moneyNumber" id="moneyNumber3">30000元</p>
+                                    <p class="meanMoney">每份金额</p>
+                                </td>
+                                <td>
+                                    <p class="moneyNumber" id="moneyNumber4">0.5%</p>
+                                    <p class="meanMoney">分红占比</p>
+                                </td>
+                            </tr>
+                        </table>
+                        <p class="character1 special">出资方案</p>
+                        <!--出资方案表格-->
+                        <table class="table table-bordered" id="comeMoney_Table">
+                            <tr id="su_td">
+                                <td><p class="CM_T"></p></td>
+                                <td><p class="CM_T">投资金额</p></td>
+                                <td><p class="CM_T">出资比例</p></td>
+                                <td><p class="CM_T">分红比例</p></td>
+                            </tr>
+                            <tr>
+                                <td><p class="CM_T1">项目方出资</p></td>
+                                <td><p class="CM_T1" id="money1">160万</p></td>
+                                <td><p class="CM_T1" id="money2">40%</p></td>
+                                <td><p class="CM_T1" id="money3">60%</p></td>
+                            </tr>
+                            <tr>
+                                <td><p style="color: #48A0FF;" class="CM_T1">投资方出资</p></td>
+                                <td><p style="color: #48A0FF;" class="CM_T1" id="money4">00</p></td>
+                                <td><p style="color: #48A0FF;" class="CM_T1" id="money5">60%</p></td>
+                                <td><p style="color: #48A0FF;" class="CM_T1" id="money6">40%</p></td>
+                            </tr>
+                            <tr>
+                                <td><p class="CM_T1" id="money">项目合计</p></td>
+                                <td><p class="CM_T1" id="money7">400万</p></td>
+                                <td><p class="CM_T1" id="money8">100%</p></td>
+                                <td><p class="CM_T1" id="money9">100%</p></td>
+                            </tr>
+                        </table>
+                        <!-- 回报方案 -->
+                        <p class="character1">回报方案</p>
+                        <span class="reward">
+                            <span class="re_part">
+                                <table class="re_part_top">
+                                    <tr>
+                                        <td class="re_part_top1">收益分红：</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="re_part_top2">0.5%*N*M</td>
+                                    </tr>
+                                    <tr class="re_part_top3">
+                                        <td><b class="fh" style="font-weight: normal;">a：</b>一份分红占比</td>
+                                        <td>N：认购份数</td>
+                                        <td>M：季度总利润</td>
+                                    </tr>
+                                </table>
+                                <table class="re_part_bot" id="re_part_bot">
+                                    <!-- <tr class="re_part_bot1">
+                                        <td>分红周期安排</td>
+                                        <td>每季度分红一次</td>
+                                    </tr>
+                                    <tr class="re_part_bot2">
+                                        <td>拆旧分摊处理方式</td>
+                                        <td>按会计法</td>
+                                    </tr>
+                                    <tr class="re_part_bot3">
+                                        <td>财务自律办法</td>
+                                        <td>严格按照会计法、税务法执行，每三个月稽核一次</td>
+                                    </tr> -->
+                                </table>
+                            </span>
+                            <span class="enjoyEquity" id="enjoyEquity">
+                                <span class="etitle">股东特权：</span>
+                                <!-- <span class="enjoyBox">
+                                    <img src="img/ticket.png" alt="" />
+                                    <span class="eIntro">
+                                        股东可一次性可获得投资金额的5%作为消费金，消费金使用说明如下：<br/>
+        1. 可抵用空间租赁工位、水吧、会议室、轰趴馆等消费（不可与其他折扣叠加使用）<br/>
+        2.抵用空间内价值1500元的企业服务礼包，包括企业开办费8折优惠、2次法律咨询、1年企业财务代理、1次企业融资咨询、1次企业经营咨询；<br/>
+        3. HO-ME创客空间价值500元的全年活动资格，包括各种公开活动，且优先保障股东名额。
+                                    </span>
+                                </span>
+                                    
+                                <img src="img/ticket.png"/>
+                                <span class="explain">说明：不可与消费抵扣金同时使用</span> -->
+                            </span>
+                        </span>
+
+
+
+                        <p class="character1">开店信息</p>
+                        <!--开店计划表格-->
+                        <table class="table table-bordered" id="openShop">
+                            
+                        </table>
+                        <p class="character1">股东选拔标准</p>
+                        <table class="table table-bordered" id="stateMoney">
+                            
+                        </table>
+                    </div>
+                </div>
+                <!--融资公告-->
+                <div style="margin-top: 40px">
+                    <div class="left_content conent1">
+                        <div id="inform_content1">
+                            <p id="I_C1">项目公告</p>
+                            <p class="inform_right1" id="inform_right3">
+                                <!--众筹项目采用两个步骤来完成投资交易:-->
+                            </p>
+                            
+                        </div>
+                        <div id="weiXinImg">
+                            <img src="" id="wxImg">
+                            <p id="wxh"></p>
+                        </div>
+                        <!-- <img src="__PUBLIC__/img/11.png" > -->
+                        <p id="weiXin">
+                            
+                        </p>
+
+                    </div>
+                </div>
+                <!--风险提示-->
+                <div style="margin-top: 40px">
+                    <div class="left_content conent3">
+                        <div id="inform_content">
+                            <p id="I_C">风险提示</p>
+                            <p class="inform_right1" id="inform_right2">
+                                
+                            <p class="inform_right1">
+                                
+                            <p class="inform_right1">
+                                
+                            <p class="inform_right1">
+                                
+                            <div id="NuLl"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+</div>
+
+
+<!--尾部-->
+<div class="cou_foot">
+    <div class="foot_con">
+        <ul class="foot_top">
+            <li class="foot_top1">
+                <b>关于我们</b>
+                <a href="#x">公司介绍</a>
+                <a href="#x">团队介绍</a>
+                <a href="#x">加入我们</a>
+                <a href="#x">联系我们</a>
+            </li>
+            <li class="foot_top1">
+                <b>帮助中心</b>
+                <a href="https://www.coucouchina.com/home/index/help.html">常见问题</a>
+                <a href="https://www.coucouchina.com/home/index/help.html">新手指南</a>
+                <a href="https://www.coucouchina.com/home/index/help.html">投资人指南</a>
+                <a href="https://www.coucouchina.com/home/index/help.html">项目方指南</a>
+            </li>
+            <li class="foot_top3">
+                <b>联系我们</b>
+                <a href="#x">公司名称：凑凑网络科技有限公司</a>
+                <!-- <a href="#x">联系电话：010-123456（工作时间：周一至周五9:00-18：00）</a> -->
+                <a href="#x">公司邮箱：coucou@coucouchina.com</a>
+                <a href="#x">公司地址：北京市海淀区双清路甲79号启迪之星</a>
+            </li>
+            <li class="foot_top4">
+                <img src="__PUBLIC__/img/pubN.png"/>
+                <p>凑凑微信公众号</p>
+            </li>
+            <li class="foot_top5">
+                <img src="__PUBLIC__/img/ios_ewm.png"/>
+                <p>凑凑客户端下载</p>
+            </li>
+        </ul>
+        <p class="foot_bot">
+            <b>友情链接</b>
+            <a href="http://food.cctv.com/">CCTV美食台</a>
+            <a href="http://www.douguo.com/">豆果美食</a>
+            <a href="http://www.meishichina.com/">美食天下</a>
+            <a href="http://www.zhms.cn/">中华美食</a>
+            <a href="http://www.fancai.com/">饭菜网</a>
+            <a href="http://www.jiupinjt.com/">九品餐饮</a>
+            <a href="http://www.haodou.com/">好豆网</a>
+            <a href="http://www.shotamuni.com/">将太无二</a>
+            <a href="http://www.soucaipu.cn/">搜菜谱美食</a>
+            <a href="http://www.meishij.net/">美食节</a>
+        </p>
+    </div>
+</div>
+<div class="cou_bottom">
+    京ICP备17012351号 copyright©2017 coucouchina.com版权所有
+</div>
+<div class="aside_nav">
+    <a href="#x" class="ios">
+		<span class="ios_down">
+		</span>
+        <div class="ios_ewm">
+            <img src="__PUBLIC__/img/ios_ewm.png"/>
+            <p>凑凑客户端下载</p>
+        </div>
+    </a>
+    <a href="#x" class="fwh">
+		<span class="gzh">
+		</span>
+        <div class="gzh_ewm">
+            <img src="__PUBLIC__/img/pubN.png"/>
+            <p>关注凑凑公众号</p>
+        </div>
+    </a>
+    <a href="#x" class="kf">
+        <span class="ques"></span>
+    </a>
+    <a href="#x" class="g_top" id="g_top">
+        <span class="to_top"></span>
+    </a>
+</div>
+<div class="big_box">
+	<p class="first">网站正在火速建设中</p>
+	<p class="second">更多精彩内容请下载凑凑APP</p>
+	<img src="__PUBLIC__/img/expect.png" class="expect">
+	<img src="__PUBLIC__/img/dlapp.png" class="dlApp" />
+	<img src="__PUBLIC__/img/close.png" class="close">
+</div>
+<script src="__PUBLIC__/js/jquery-2.2.3.js"></script>
+<script src="__PUBLIC__/js/main.js"></script>
+<script>
+    $("#g_top").click(function () {
+        $('body,html').animate({scrollTop: 0}, 300);
+        return false;
+    });
+    $('.cli').click(function(){
+		$('.big_box').fadeIn()
+	})
+	$('.close').click(function(){
+		$('.big_box').fadeOut();
+	})
+</script>
+</div>
+</body>
+</html>

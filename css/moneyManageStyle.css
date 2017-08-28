@@ -1,0 +1,173 @@
+/*资金管理_我的账户*/
+.money_manage{
+    min-height: 530px;
+}
+.money_manage > .content_myAccount{
+    height: 232px;
+    width: 840px;
+    border: 1px solid #dcdcdc;
+    margin: 30px 0 0 30px;
+    position: relative;
+}
+.myAccount_up{
+    height: 135px;
+}
+.money_manage > .content_myAccount > .myAccount_up .myAccount_up1{
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    font-size: 16px;
+    color: #333333;
+}
+.money_manage > .content_myAccount > .myAccount_up .myAccount_up2{
+    position: absolute;
+    right: 40px;
+    top: 32px;
+    font-size: 14px;
+    color: #b981d1;
+}
+.my_money{
+    position:absolute;
+    top: 77px;
+    left: 40px;
+    color: #333333;
+    font-size: 24px;
+}
+.my_money_CN{
+    font-size: 14px;
+   margin-left: -5px;
+}
+.btn_left{
+    position:absolute;
+    top: 72px;
+    right: 110px;
+    font-size: 14px;
+    width: 50px;
+    height: 24px;
+    background-color: #ffffff;
+    border: 1px solid #999999;
+    border-radius: 5px;
+}
+
+.btn_rt{
+    position:absolute;
+    top: 72px;
+    right: 40px;
+    font-size: 14px;
+    width: 50px;
+    height: 24px;
+    background-color: #B981D1;
+    border: 1px solid #B981D1;
+    border-radius: 5px;
+    color: #ffffff;
+}
+.myAccount_top{
+   height: 56px;
+    width: 760px;
+    border-top: 1px solid #dcdccd;
+    margin:0 auto;
+}
+.myAccount_top > ul > li{
+    float:left;
+    margin-top: 40px;
+    width: 33.3%;
+    font-size: 16px;
+}
+.myAccount_top_li2{
+    text-align: center;
+}
+.myAccount_top_li3{
+    text-align: right
+}
+.myAccount_top_span1{
+    color: #666666;
+}
+.myAccount_top_span2{
+    color: #333333;
+}
+/*  /资金管理_我的账户*/
+/*  /资金管理_*/
+.money_Record{
+    min-height:600px;
+    border:1px solid #dcdcdc;
+    width: 840px;
+    margin: 30px 0 0 30px;
+}
+
+.Record_title_td{
+    height: 60px;
+    background-color: #f3f4f5;
+    border-bottom: 1px solid #dcdcdc;
+    font-size: 16px;
+    color: #333333;
+    cursor: pointer;
+    overflow:hidden;
+}
+
+.Record_title_td1{
+    width: 120px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 14px;
+    color: #666666;
+}
+.Record_title_td2{
+    width:200px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 14px;
+    color: #666666;
+}
+
+.Record_title_p1{
+    float: left;
+    margin: 20px 0  0 44px;
+}
+.Record_title_p2{
+    float: left;
+    margin: 20px 0  0 42px;
+}
+.Record_title_p3{
+    float: left;
+    margin: 20px 0  0 65px;
+    font-size: 16px;
+}
+.Record_title_p4{
+    float: left;
+    margin: 20px 0  0 84px;
+}
+.Record_title_td img{
+    float: left;
+    margin: 26px 0 0 5px;
+}
+.Record_title_p6{
+    color: #B981D1
+}
+
+/*我的账户 里面的小导航*/
+.subNav{
+    width: 120px;
+    height: 240px;
+    background: #f3f4f5;
+    border: 1px solid #c2c2c2;
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    display: none;
+}
+.subNav li{
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #333333;
+    font-size: 14px;
+}
+Record_title_type11{
+    color: #B981D1;
+}
+.subNav li:hover{
+    color: #B981D1;
+}
+
+/*  /资金管理_*/

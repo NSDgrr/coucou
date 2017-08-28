@@ -1,0 +1,171 @@
+/*关注的项目*/
+.tb_one{
+    height: 274px;
+    width: 840px;
+    border: 1px solid #dcdcdc;
+    margin: 46px 0 0 30px;
+}
+.tb_one tr:nth-child(1){
+    height: 194px;
+    border-bottom: 1px solid #dcdcdc;
+}
+.tb_one .tb_up_left{
+    width: 219px;
+    float: left;
+}
+/*---------------------------*/
+.tb_one .tb_up-right{
+    width: 619px;
+    height: 194px;
+    float: left;
+}
+.tb_up_left img{
+    margin: 20px 0 0 20px;
+}
+.some_content{
+    margin-top: 30px;
+}
+.some_Time{
+    font-size: 18px;
+    color: #333333;
+    height: 17px;
+    margin: 30px 0 0 20px;
+}
+.some_Time1 img{
+    margin-left:20px;
+}
+.some_Time1{
+    font-size: 14px;
+    color: #333333;
+    height: 17px;
+    margin-left:9px;
+}
+.some_Time2{
+    font-size: 16px;
+    color: #333333;
+    height: 15px;
+    margin-right:20px;
+    float: right;
+}
+.title_rt{
+    font-size: 14px;
+    color: #666666;
+    margin: 20px 0 0 20px;
+}
+
+#pres{
+height: 6px;
+    width: 580px;
+    background: #c2c2c2;
+    margin: 27px 0 0 20px;
+}
+#pres > .progress-bar{
+    background: #B981D1;
+    width: 70%;
+    /*position: absolute;*/
+}
+#show_rt{
+    background-color: #ffffff;
+    width: 60px;
+    height: 20px;
+    border: 1px solid #B981D1;
+    font-size: 14px;
+    color: #23252f;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50px;
+    position: relative;
+    left: 65%;
+    top: -12px;
+}
+.money_sum{
+    margin-top: 24px;
+    height: 17px;
+    overflow: hidden;
+}
+.money_sum li{
+    color: #333333;
+
+}
+.money_sum li:nth-child(1){
+    margin-left: 19px;
+    font-size: 16px;
+    float: left;
+}
+.money_sum li:nth-child(2){
+    margin-left: 100px;
+    font-size: 16px;
+    float: left;
+}
+.money_sum li:nth-child(3){
+    margin-right:20px;
+    font-size: 16px;
+    float: right;
+}
+.rt_cancel{
+    width: 150px;
+    height: 40px;
+    border: 1px solid;
+    background-color: #ffffff;
+    color: #666666;
+    font-size: 16px;
+    overflow: hidden;
+    margin: 19px 0 0 350px;
+    float: left;
+    border: 1px solid #dcdcdc;
+}
+.rt_cancel img{
+    float: left;
+    margin: 1px 0 0 25px;
+}
+.rt_cancel p{
+    float: left;
+    margin-left: 9px;
+}
+.rt_confirm{
+    float: left;
+    width: 300px;
+    height: 40px;
+    background: -webkit-linear-gradient(left, #ee69ba 0%,#b544ee 100%);
+    border: none;
+    margin: 19px 0 0 20px;
+}
+.rt_confirm p{
+    font-size: 16px;
+    color: #ffffff;
+}
+
+
+/*关注的项目 表格2*/
+#pres_1{
+    height: 6px;
+    width: 580px;
+    background: #c2c2c2;
+    margin: 27px 0 0 20px;
+}
+#pres_1 > .progress-bar{
+    background: #B981D1;
+    width: 100%;
+}
+#show_rt_1{
+    background-color: #ffffff;
+    width: 60px;
+    height: 20px;
+    border: 1px solid #B981D1;
+    font-size: 14px;
+    color: #23252f;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50px;
+    position: relative;
+    left: 88%;
+    top: -12px;
+}
+.rt_end{
+    float: left;
+    width: 300px;
+    height: 40px;
+    background:#c2c2c2;
+    border: none;
+    margin: 19px 0 0 20px;
+}

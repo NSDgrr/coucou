@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>路演邀请函</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"  />
+		<meta name="keywords" content="路演活动，路演门票，凑凑路演">
+		<meta name="description" content="在凑凑APP参与众筹，付完项目预约金之后您将会收到此路演没票">
+		<script>
+			onresize=function(){
+				document.documentElement.style.fontSize=innerWidth/10+'px';
+			}
+			document.documentElement.style.fontSize=innerWidth/10+'px';
+		</script>
+		<style type="text/css">
+			*{
+				margin:0;
+				padding: 0;
+			}
+			.bigBox{
+				width: 10rem;
+				text-align: center;
+				margin-bottom: 20px;
+			}
+			.bigBox>div{
+				height: 20px;
+			}
+			.ly {
+				width: 9rem;
+				display: inline-block;
+				vertical-align: middle;
+
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="bigBox">
+			<div></div>
+			<!-- <div id="box" class="box viewport-flip">
+				<a href="#" class="list flip out">
+					<img src="__PUBLIC__/img/reverse.png" alt="路演门票背面" />
+				</a>
+				<a href="#" class="list flip">
+					<img src="__PUBLIC__/img/front.png" alt="路演门票正面" />
+				</a>
+			</div> -->
+		</div>	
+		<script src="__PUBLIC__/js/jquery-2.2.3.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				var url = window.location.href;
+			    var id1 = url.split('?')[1];
+			    var id2=id1.split('&')[0];
+			    var true_pid=id2.split('=')[1];//app里的pid
+			    var uid=id1.split('&')[1];
+			    var uid1=uid.split('&')[0];
+			    var true_uid=uid1.split('=')[1];//app里的UID
+
+			    $.ajax({
+			    	type:'post',
+			    	url:"https://www.coucouchina.com/api/index/luyanImage",
+			    	async:true,
+			    	data:{
+			    		uid:true_uid,
+			    		gid:true_pid
+			    	},
+			    	success:function(e){
+			    		var data=e.data;
+			    		if(e.code==1){
+			    			var html='';
+				    		html='<img class="ly" src='+data.luyanimageback+' alt="路演门票背面" />'
+							$('.bigBox').append(html)
+			    		}
+			    	}
+			    })
+    		})		
+		</script>
+	</body>
+
+</html>
